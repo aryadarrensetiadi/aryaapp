@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QRCodeScanActivity">
+    tools:context=".QRCodeScanActivity"
+    android:background="#FF424242">
 
     <TextView
         android:id="@+id/tv_text"

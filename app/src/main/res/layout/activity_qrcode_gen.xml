@@ -7,7 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".QRCodeGenActivity">
+    tools:context=".QRCodeGenActivity"
+    android:background="#FF424242">
 
     <!--on below line we are creating
         a text for heading of our app-->
@@ -45,9 +46,12 @@
         android:layout_marginEnd="20dp"
         android:autofillHints=""
         android:hint="Enter your message"
+        android:textColorHint="@color/white"
         android:inputType="text"
         android:padding="16dp"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        />
 
     <!--Button for creating a QR code-->
     <Button
