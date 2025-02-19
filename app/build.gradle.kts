@@ -44,6 +44,10 @@ android {
 
 
 dependencies {
+    // implementation "androidx.room:room-runtime:2.6.1"
+
+    implementation ("com.google.android.material:material:1.6.1")
+
     implementation("net.objecthunter:exp4j:0.4.8")
     implementation("org.mozilla:rhino:1.7.14")
     implementation ("com.google.zxing:core:3.4.1")
